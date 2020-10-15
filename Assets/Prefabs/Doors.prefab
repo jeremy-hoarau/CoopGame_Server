@@ -33,7 +33,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1150087273903697696}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &822868979262089915
 MeshFilter:
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c9d741e3d684a4408f67f17a26d4af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectId: 2
+  objectId: 1
   objectTypeType: 0
 --- !u!1 &4561545923190933610
 GameObject:
@@ -360,7 +360,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1150087273903697696}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &5871916726360412539
 MeshFilter:
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c9d741e3d684a4408f67f17a26d4af6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectId: 1
+  objectId: 2
   objectTypeType: 0
 --- !u!1 &5733009305277825739
 GameObject:
@@ -683,8 +683,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.5905452, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6590964807809080315}
   - {fileID: 2247513007208568212}
+  - {fileID: 6590964807809080315}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -719,3 +719,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorsAnimations: {fileID: 1111058753923974000}
   nbOfActivatorsNeeded: 1
+  doorType: 0
