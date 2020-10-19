@@ -243,6 +243,18 @@ public class ServerSend
                 SendUDPDataToAll(_packet);
             }
         }
+
+        public static void SwapPlatformState(int _id, bool _activated)
+        {
+            using (Packet _packet = new Packet((int) ServerPackets.swapPlatformState))
+            {
+                _packet.Write(_id);
+                _packet.Write(_activated);
+                
+                SendTCPDataToAll(_packet);
+            }
+        }
+
         
         #endregion
         
