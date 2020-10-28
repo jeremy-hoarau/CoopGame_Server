@@ -10,7 +10,7 @@ public class DestroyObjectsInTrigger : MonoBehaviour
             if(other.gameObject.GetComponent<GrabbableObject>().playerGrab != null)
                 other.gameObject.GetComponent<GrabbableObject>().playerGrab.DestroyGrabbedObject();
             else
-                Destroy(other.gameObject);
+                other.gameObject.GetComponent<RespawnObject>().Respawn();
             ServerSend.DestroyObject(ObjectType.box, other.GetComponent<SendObjectPosition>().objectId);
         }
     }

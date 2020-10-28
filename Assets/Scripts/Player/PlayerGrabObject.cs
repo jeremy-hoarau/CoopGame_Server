@@ -104,7 +104,7 @@ public class PlayerGrabObject : MonoBehaviour
         if(!isGrabbing)
             return;
         inRangeObjects.Remove(grabbedObject);
-        Destroy(grabbedObject);
+        grabbedObject.GetComponent<RespawnObject>().Respawn();
         grabbedObject = null;
         grabbedObjectRb = null;
         isGrabbing = false;

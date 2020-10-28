@@ -23,6 +23,7 @@ public class Checkpoint : MonoBehaviour
         {
             SetCheckpointForAllPlayers();
             onCheckpointActivated.Invoke();
+            enabled = false;
         }
     }
 
