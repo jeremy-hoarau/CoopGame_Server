@@ -169,7 +169,7 @@ public class ServerSend
             {
                 _packet.Write(_rotation);
                 
-                SendUDPData(_playerId, _packet);
+                SendTCPData(_playerId, _packet);
             }
         }
 

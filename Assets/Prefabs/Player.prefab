@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPositionOffsetWhenGrabbed: {x: 0, y: 1, z: 1.5}
   isGrabbing: 0
-  speedToRecenter: 300
+  speedToRecenter: 500
   maxDistance: 6
 --- !u!65 &7888713978693991586
 BoxCollider:
